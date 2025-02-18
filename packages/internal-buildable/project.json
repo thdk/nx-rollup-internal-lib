@@ -1,0 +1,19 @@
+{
+  "name": "internal-buildable",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/internal-buildable/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/internal-buildable",
+        "main": "packages/internal-buildable/src/index.ts",
+        "tsConfig": "packages/internal-buildable/tsconfig.lib.json",
+        "assets": ["packages/internal-buildable/*.md"]
+      }
+    }
+  }
+}

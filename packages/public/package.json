@@ -1,0 +1,8 @@
+{
+  "name": "@nx-rollup-internal-package/public",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./index.cjs",
+  "module": "./index.js",
+  "dependencies": {}
+}

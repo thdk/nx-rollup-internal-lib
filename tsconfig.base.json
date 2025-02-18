@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-rollup-internal-package/internal-buildable": [
+        "packages/internal-buildable/src/index.ts"
+      ],
+      "@nx-rollup-internal-package/public": ["packages/public/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

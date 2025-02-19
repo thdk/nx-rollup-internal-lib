@@ -1,0 +1,8 @@
+{
+  "name": "@nx-rollup-internal-package/public-depends-on-non-buildable",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./index.cjs",
+  "module": "./index.js",
+  "dependencies": {}
+}

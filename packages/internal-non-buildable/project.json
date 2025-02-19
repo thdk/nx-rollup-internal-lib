@@ -1,0 +1,9 @@
+{
+  "name": "internal-non-buildable",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/internal-non-buildable/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project internal-non-buildable --web",
+  "targets": {}
+}

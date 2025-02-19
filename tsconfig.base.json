@@ -18,7 +18,13 @@
       "@nx-rollup-internal-package/internal-buildable": [
         "packages/internal-buildable/src/index.ts"
       ],
-      "@nx-rollup-internal-package/public": ["packages/public/src/index.ts"]
+      "@nx-rollup-internal-package/internal-non-buildable": [
+        "packages/internal-non-buildable/src/index.ts"
+      ],
+      "@nx-rollup-internal-package/public": ["packages/public/src/index.ts"],
+      "@nx-rollup-internal-package/public-depends-on-non-buildable": [
+        "packages/public-depends-on-non-buildable/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

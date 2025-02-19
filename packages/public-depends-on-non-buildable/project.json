@@ -1,0 +1,9 @@
+{
+  "name": "public-depends-on-non-buildable",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/public-depends-on-non-buildable/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project public-depends-on-non-buildable --web",
+  "targets": {}
+}
